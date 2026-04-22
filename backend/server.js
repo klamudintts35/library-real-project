@@ -3,7 +3,7 @@ import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import connectDB from "./config/db.js";
-import adminRoutes from "./routes/adminRoutes.js";
+import adminRoutes from "./routes/AdminRoutes.js";
 import studentRoutes from "./routes/studentRoutes.js";
 
 // dotenv.config();
