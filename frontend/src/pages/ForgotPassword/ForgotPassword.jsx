@@ -21,6 +21,7 @@ const ForgotPassword = () => {
       });
 
       if (data.success) {
+        alert(`Your OTP is: ${data.otp}`);/////ese bas otp dekhne ke liye use kar rahe hai
         localStorage.setItem("resetMobile", mobile);
         navigate("/verify-otp");
       }
