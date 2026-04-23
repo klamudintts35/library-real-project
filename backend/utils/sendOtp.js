@@ -4,6 +4,7 @@ const sendOtp = async (mobile, otp) => {
   return {
     success: true,
     message: "OTP sent successfully",
+    otp: otp,
   };
 };
 
