@@ -219,7 +219,8 @@ const ViewStudents = () => {
       <div className="view-students-page">
         <div className="view-students-top">
           <h2>All Students</h2>
-          <p>Yahan admin apne saare students dekh sakta hai</p>
+          <p>The admin can view and manage all students here</p>
+          <button className="dashboard-btn" onClick={()=> navigate("/dashboard")}>Dashboard</button>
         </div>
 
         <div className="table-wrapper">
