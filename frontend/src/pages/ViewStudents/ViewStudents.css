@@ -18,7 +18,20 @@
   color: #64748b;
   font-size: 15px;
 }
-
+.dashboard-btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+  min-width: 75px;
+  background-color: #166534;
+  align-items: center;
+  margin-top: 30px;
+}
 /* desktop/tablet wrapper */
 .table-wrapper {
   width: 100%;
@@ -190,7 +203,9 @@ tbody tr:hover {
   .view-students-top p {
     font-size: 14px;
   }
-
+  .dashboard-btn {
+    width: 100%;
+  }
   .table-wrapper {
     background: transparent;
     box-shadow: none;
