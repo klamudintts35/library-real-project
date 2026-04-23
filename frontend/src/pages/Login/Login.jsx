@@ -50,7 +50,7 @@ const Login = () => {
     <div className="login-page">
       <div className="login-card">
         <h1 className="login-title">Admin Login</h1>
-        <p className="login-subtitle">Login karke dashboard kholo</p>
+        <p className="login-subtitle">Admin login and open the dashboard</p>
 
         <form className="login-form" onSubmit={handleSubmit}>
           <input
